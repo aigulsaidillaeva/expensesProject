@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import { Expenses } from "./components/expenses/expenses";
 import { ExpenseForm } from "./expnseForm/expenseForm";
+import Button from "./components/UI/button";
 
 const expensesData = [
   {
@@ -19,9 +20,20 @@ const expensesData = [
 ];
 
 export function App() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  function openFunction() {
+    setIsOpen(true);
+  }
+
+  function closeFunction() {}
   return (
     <div className="container">
-      <ExpenseForm />
+      {isOpen ? (
+        <ExpenseForm onClick={closeFunction} />
+      ) : (
+        <Button title="Записать расход" onClick={openFunction} />
+      )}
       <Expenses expenses={expensesData} />
     </div>
   );
