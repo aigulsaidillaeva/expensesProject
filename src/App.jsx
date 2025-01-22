@@ -13,7 +13,7 @@ const expensesData = [
   },
   {
     id: "f2",
-    title: "iphone 16 promax ",
+    title: "iphone 15pro",
     date: new Date(),
     price: 20000,
   },
