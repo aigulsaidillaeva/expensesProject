@@ -1,9 +1,15 @@
 .button {
   border: none;
   padding: 16px 18px;
-  background-color: blueviolet;
   border-radius: 10px;
+  background: rgb(74, 2, 107);
   color: white;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
 }
 .button:hover {
   background-color: rgb(170, 109, 226);

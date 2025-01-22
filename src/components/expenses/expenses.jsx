@@ -14,7 +14,6 @@ const ExpenseItem = (props) => {
   return (
     <div>
       <ExpenseItemDate date={props.date} />
-
       <div>{props.title}</div>
       <div>{props.price}$</div>
     </div>

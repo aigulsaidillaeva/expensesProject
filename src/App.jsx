@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import { Expenses } from "./components/expenses/expenses";
-import { ExpenseForm } from "./expnseForm/expenseForm";
+import { ExpenseForm } from "./components/expnseForm/expenseForm";
 import Button from "./components/UI/button";
 
 const expensesData = [

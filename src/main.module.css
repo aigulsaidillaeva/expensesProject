@@ -1,0 +1,44 @@
+.form {
+  background-color: rgb(173, 155, 233);
+  width: 780px;
+  height: 287px;
+  border-radius: 12px;
+  padding: 30px 40px;
+}
+
+.fields {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.form input {
+  width: 340px;
+  height: 39px;
+  left: 370px;
+  top: 291px;
+  border-radius: 8px;
+  border: none;
+  background: rgb(255, 255, 255);
+  padding: 12px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+.form label {
+  color: rgb(0, 0, 0);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 8px;
+}
+.formButtons {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  margin-top: 8px;
+  /* margin-left: 330px; */
+}
+.formButtons button {
+  margin-right: 14px;
+}
